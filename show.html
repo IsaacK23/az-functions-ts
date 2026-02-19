@@ -12,7 +12,7 @@
     <button id="btnGetData">Get Data</button>
     <pre id="preOutput"></pre>
     <script>
-        const baseUrl = "http://localhost:5208";
+        const baseUrl = "https://az-functions-ts-ik.azurewebsites.net/api/students";
 
         var showResponse = function (object) {
             document.querySelector("#preOutput").innerHTML = JSON.stringify(
